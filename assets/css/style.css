@@ -1,0 +1,222 @@
+body {
+    background-color: #000000;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 100px;
+}
+
+.header {
+    background-color: white;
+    width: 1200px;
+    border-bottom: 2px solid #cccccc;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    display: inline-block;
+    padding:  10px 20px;
+    margin: 0 250px 0 30px;
+
+}
+
+
+.nav {
+    display: inline-block;
+    margin: 0 auto 0 20px;
+
+}
+
+
+
+.nav a {
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    border-right: 2px solid rgba(255, 255, 255, .3);
+
+}
+
+.nav a:hover {
+    color: #999;
+    text-decoration: none;
+    border-right: 2px solid rgba(255, 255, 255, .3);
+}
+
+
+
+.main-content {
+    background-image: url("../images/birdpattern.png");
+    width: 1200px;
+    margin: 0 auto;
+    height: 580px;
+
+}
+
+
+
+.about-me {
+    background-color: white;
+    width: 650px;
+    margin-left: 80px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    position: relative;
+    top: 40px;  
+}
+
+.about-me header h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 5px 20px;
+}
+
+.about-me section {
+    border-top: 3px solid #dddddd;
+}
+
+
+.about-me img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+
+.connect {
+    background-color: white;
+    border: 1px solid #cccccc;
+    width: 270px;
+    margin-top: -448px;
+    padding: 5px 20px;
+    float: right;
+    margin-right: 80px;
+
+}
+
+.connect hr{
+    border-top: 3px solid #cccccc;
+    width: 95%;
+    margin-bottom: 30px;
+
+}
+
+.connect h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+}
+.social-links {
+    text-align: center;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+}
+
+
+.portfolio {
+    background-color: white;
+    width: 650px;
+    margin-left: 80px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    position: relative;
+    top: 40px;  
+}
+
+.portfolio header h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 5px 20px;
+}
+
+.portfolio section {
+    border-top: 3px solid #dddddd;
+}
+
+
+.portfolio img {
+    margin-right: 30px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+
+
+  
+
+.contact {
+    background-color: white;
+    width: 650px;
+    margin-left: 80px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    position: relative;
+    top: 40px;  
+}
+
+.contact header h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 5px 20px;
+}
+
+.contact section {
+    border-top: 3px solid #dddddd;
+}
+
+input[type=text], select, textarea {
+    width: 600px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
+    width: 600px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    font-size: large;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+
+.footer {
+    background-color: #666666;
+	color: white;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+	padding: 40px;
+	font-size: 14px;
+	margin: 0 auto;
+    width:1120px;
+}
